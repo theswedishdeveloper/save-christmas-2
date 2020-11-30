@@ -1,7 +1,4 @@
-import { randomArray } from './helpers.js'
 import { swap } from './helpers.js'
-
-const a = randomArray(100, 10)
 
 const bubbleSort = (array) => {
     for (let j = 0; j < array.length - 1; j++) {
